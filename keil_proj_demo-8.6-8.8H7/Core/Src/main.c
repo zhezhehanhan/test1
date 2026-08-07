@@ -215,7 +215,7 @@ void SystemClock_Config(void)
 /* 函数定义：这里才是函数的具体实现 */
 void blink_led(uint8_t led_num, uint16_t times, uint32_t delay_ms)
 {
-  uint16_t i = 1U; /* 循环计数变量 */
+  uint16_t i = 0U; /* 循环计数变量 */
 
   /* if 判断：LED 编号只允许 1~4 */
   if (led_num > LED_COUNT)
@@ -224,7 +224,7 @@ void blink_led(uint8_t led_num, uint16_t times, uint32_t delay_ms)
   }
 
   /* for 循环：初始化; 判断条件; 每次循环后执行 */
-  for (i = 1U; i < times; i++)
+  for (i = 0U; i < times; i++)
   {
     led_on(led_num);          /* 点亮指定 LED */
     HAL_Delay(delay_ms);      /* 延时一段时间 */
