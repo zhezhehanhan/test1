@@ -9,10 +9,16 @@
                 "c:\\Users\\326sqz423\\Downloads\\keil_proj_demo-8.6-8.8H7\\keil_proj_demo-8.6-8.8H7\\Drivers\\CMSIS\\Device\\ST\\STM32H7xx\\Include",
                 "c:\\Users\\326sqz423\\Downloads\\keil_proj_demo-8.6-8.8H7\\keil_proj_demo-8.6-8.8H7\\Drivers\\CMSIS\\Include",
                 "c:\\Users\\326sqz423\\Downloads\\keil_proj_demo-8.6-8.8H7\\keil_proj_demo-8.6-8.8H7\\hardware\\inc",
+                "c:\\Users\\326sqz423\\Downloads\\keil_proj_demo-8.6-8.8H7\\keil_proj_demo-8.6-8.8H7\\user\\inc",
+                "D:\\Keil_v5\\ARM\\ARMCLANG\\include",
+                "D:\\Keil_v5\\ARM\\ARMCLANG\\include\\arm_linux",
+                "D:\\Keil_v5\\ARM\\ARMCLANG\\include\\arm_linux_compat",
+                "D:\\Keil_v5\\ARM\\ARMCLANG\\include\\libcxx",
                 "c:\\Users\\326sqz423\\Downloads\\keil_proj_demo-8.6-8.8H7\\keil_proj_demo-8.6-8.8H7\\MDK-ARM",
                 "c:\\Users\\326sqz423\\Downloads\\keil_proj_demo-8.6-8.8H7\\keil_proj_demo-8.6-8.8H7\\Core\\Src",
                 "c:\\Users\\326sqz423\\Downloads\\keil_proj_demo-8.6-8.8H7\\keil_proj_demo-8.6-8.8H7\\Drivers\\STM32H7xx_HAL_Driver\\Src",
                 "c:\\Users\\326sqz423\\Downloads\\keil_proj_demo-8.6-8.8H7\\keil_proj_demo-8.6-8.8H7\\hardware\\src",
+                "c:\\Users\\326sqz423\\Downloads\\keil_proj_demo-8.6-8.8H7\\keil_proj_demo-8.6-8.8H7\\user\\src",
                 "${default}"
             ],
             "defines": [
