@@ -54,9 +54,10 @@ void blink_led_func(void)
     uint8_t led_num = 1U; /* 当前 LED 编号 */
     uint32_t delay_ms = 250U; /* LED 亮/灭持续时间，单位毫秒 */
     uint16_t i = 0U;
-    while (led_num <=4U)
+     uint8_t led_count = 4U; /* 板载 LED 数量，U 表示 unsigned 无符号数 */
+    while (led_num <=led_count)
     {
-       if (led_num > 4U)
+       if (led_num > led_count)
   {
     return; /* return 直接结束当前函数 */
   }
