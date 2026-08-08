@@ -47,25 +47,25 @@ void alarm_sys(alarm_sys_mode mode)
         HAL_GPIO_WritePin(BUZZER_GPIO_PORT, BUZZER_PIN, GPIO_PIN_RESET);
     break;
     case RUN:
-    while(1){
+    
         while (led_num <= 4U)
     {
       blink_led(led_num,times, delay_ms);
       led_num++; 
     }
 
-    }
+    
     
     break;
     case ALARM:
-    while(1){
+    
         while (led_num <= 4U)
     {
       blink_led(led_num,times, delay_ms_fast);
       led_num++; 
         beep(delay_ms_fast);}
         break;
-    }
+    
 
   }
 }
