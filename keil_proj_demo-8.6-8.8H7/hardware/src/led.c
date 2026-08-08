@@ -49,3 +49,27 @@ void led_off(uint8_t led_num)
             break;
     }
 }
+void blink_led_func(void)
+{
+    uint8_t led_num = 1U; /* 当前 LED 编号 */
+    uint32_t delay_ms = 250U; /* LED 亮/灭持续时间，单位毫秒 */
+    uint16_t i = 0U;
+    while (led_num <=4U)
+    {
+       if (led_num > 4U)
+  {
+    return; /* return 直接结束当前函数 */
+  }
+
+  /* for 循环：初始化; 判断条件; 每次循环后执行 */
+  for (i = 0U; i < led_num; i++)
+  {
+    led_on(led_num);          /* 点亮指定 LED */
+    HAL_Delay(delay_ms);      /* 延时一段时间 */
+    led_off(led_num);         /* 熄灭指定 LED */
+    HAL_Delay(delay_ms);
+  }
+        led_num++;
+    }
+
+}

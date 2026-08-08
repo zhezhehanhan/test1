@@ -23,7 +23,7 @@ extern "C" {
 /* 函数声明：LED 编号约定为 1~4，分别对应 PB3~PB6 */
 void led_on(uint8_t led_num);
 void led_off(uint8_t led_num);
-
+void blink_led_func(void); 
 #ifdef __cplusplus
 }
 #endif

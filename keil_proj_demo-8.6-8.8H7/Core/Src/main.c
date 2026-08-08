@@ -73,6 +73,7 @@ static void MPU_Config(void);
 /* 函数声明（原型）：告诉编译器函数名、参数和返回值，定义在下方 USER CODE 4 */
 void blink_led(uint8_t led_num, uint16_t times, uint32_t delay_ms);
 void beep(uint32_t beep_ms);
+
 /* USER CODE END PFP */
 
 /* Private user code ---------------------------------------------------------*/
@@ -128,7 +129,7 @@ int main(void)
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */
-    current_led = 1U; /* 练习点：改成 2U，观察从哪颗 LED 开始 */
+    current_led = 2U; /* 练习点：改成 2U，观察从哪颗 LED 开始 */
 
     /* while 循环：条件成立就反复执行 {} 里的代码 */
     while (current_led <= led_count)
